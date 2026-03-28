@@ -11,11 +11,11 @@ A Fusion 360 Python script that automatically generates raised UEB Braille dots 
 - **Multi-line text** — use the `|` character to place multiple lines of Braille in a single run.
 - **Multiple independent runs** — run the script as many times as needed on the same surface. Each run is fully isolated; previous dots are never re-extruded or re-filleted.
 - **Domed dots** — each dot cylinder receives a hemisphere fillet matching the UEB standard profile for tactile readability.
-- **Parametric dimensions** — all dot and spacing values are stored as Fusion 360 user parameters (`dotDia`, `dotSpacing`, `cellSpacingX`, `cellSpacingY`, `dotHeight`) and can be edited at any time.
+- **Parametric dimensions** — all dot and spacing values can be edited before creating the features.
 - **Clean timeline** — all features for each run are grouped under a named timeline group (`Braille-XXXXX-G1` or `Braille-XXXXX-G2`). One extrude per line of text keeps the timeline lean.
 - **Surface size check** — warns if the entered text exceeds the face bounds, with the option to proceed or re-enter.
 - **Capital and number indicators** — UEB capital and numeric mode indicators are applied automatically.
-- **macOS and Windows** — auto-detects platform and loads the correct liblouis binary.
+- **macOS and Windows** — auto-detects platform and loads the correct liblouis binary (Grade 2 only).
 
 -----
 
