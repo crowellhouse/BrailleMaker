@@ -1,6 +1,6 @@
 # BrailleMaker for Autodesk Fusion 360
 
-A Fusion 360 Python script that automatically generates raised UEB Braille dots on any flat surface of a 3D model. Select a grade, pick a construction line and face, type your text, and the script extrudes precision domed dot cylinders ready for 3D printing or CNC machining.
+A Fusion 360 Python script that automatically generates raised UEB Braille dots on any flat surface of a 3D model. Select a grade, pick a construction line and face, type your text, and the script extrudes precision domed dots ready for 3D printing or CNC machining.
 
 -----
 
