@@ -2,6 +2,13 @@
 
 A Fusion 360 Python script that automatically generates raised UEB Braille dots on any flat surface of a 3D model. Choose a grade, configure dot geometry, pick a construction line and face, type your text, and the script extrudes precision domed dot cylinders ready for 3D printing or CNC machining.
 
+
+<img width="455" height="450" alt="Braille Baseball Field Diagram" src="https://github.com/user-attachments/assets/bbe1c5f3-076f-441c-8b74-8812bf4d524f" />
+
+
+https://github.com/user-attachments/assets/af1b1b4a-9ee7-4435-a450-52b84d87e649
+
+
 ---
 
 ## Features
